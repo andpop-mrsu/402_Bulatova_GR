@@ -1,0 +1,21 @@
+{
+    "name": "bulatova/guess-number",
+    "authors": [
+        {
+            "name": "Gulya Bulatova",
+            "email": "bulatova-guziul@mail.ru"
+        }
+    ],
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.11"
+    },
+	"bin": [
+		"bin/guess-number.php"
+	],
+	"autoload": {
+		"files": [
+				"src/Controller.php",
+				"src/View.php"
+			]
+		}
+}
