@@ -1,0 +1,26 @@
+{
+	"name": "bulatova/guess-number",
+	"authors": [
+		{
+			"name": "Gulya Bulatova",
+			"email": "bulatova-guziul@mail.ru"
+		}
+	],
+	"require": {
+		"wp-cli/php-cli-tools": "^0.11.11",
+		"gabordemooij/redbean": "^5.6",
+		"ext-sqlite3": "*",
+		"ext-readline": "*"
+	},
+	"bin": [
+		"bin/guess-number.bat"
+	],
+	"autoload": {
+		"files": [
+			"src/Controller.php",
+			"src/View.php",
+			"src/Model.php",
+			"src/DataBase.php"
+		]
+	}
+}
