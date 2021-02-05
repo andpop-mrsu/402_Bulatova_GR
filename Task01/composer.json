@@ -1,0 +1,23 @@
+{
+    "name": "bulatova/task01",
+    "authors": [
+        {
+            "name": "Gulya Bulatova",
+            "email": "bulatova-guziul@mail.ru"
+        }
+    ],
+    "type": "project",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": [
+            "src/Test.php"
+        ]
+    },
+    "bin": [
+        "bin/run-test"
+    ]
+}
