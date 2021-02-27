@@ -1,0 +1,26 @@
+{
+    "name": "bulatova/task03",
+    "authors": [
+        {
+            "name": "Gulya Bulatova",
+            "email": "bulatova-guziul@mail.ru"
+        }
+    ],
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Tests\\": "tests/"
+        },
+        "files": [
+            "src/checkIfBalanced.php"
+        ]
+    }
+}
