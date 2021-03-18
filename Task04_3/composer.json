@@ -1,0 +1,24 @@
+{
+  "name": "bulatova/task04",
+  "type": "project",
+  "description": "",
+  "authors": [
+    {
+      "name": "Gulya Bulatova"",
+      "email": "bulatova-guziul@mail.ru"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "^9.5",
+    "ext-sqlite3": "*"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
