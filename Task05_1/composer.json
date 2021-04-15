@@ -1,0 +1,19 @@
+{
+    "name": "bulatova/task05_1",
+    "description": "task05_1",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Gulya Bulatova",
+            "email": "bulatova-guziul@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
